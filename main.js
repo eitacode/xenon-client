@@ -3110,7 +3110,7 @@ class PageLoginComponent {
     }
 }
 PageLoginComponent.ɵfac = function PageLoginComponent_Factory(t) { return new (t || PageLoginComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_api_services_api_authentication_service__WEBPACK_IMPORTED_MODULE_2__["ApiAuthenticationService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_utils_services_util_local_storage_service__WEBPACK_IMPORTED_MODULE_4__["UtilLocalStorageService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_shared_ui_services_ui_notification_service__WEBPACK_IMPORTED_MODULE_5__["UiNotificationService"])); };
-PageLoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PageLoginComponent, selectors: [["xenon-page-login"]], decls: 19, vars: 6, consts: [[1, "login-register"], [1, "login-register-box"], [1, "mat-elevation-z0"], [3, "formGroup", "ngSubmit"], [1, "text-center"], ["alt", "logo", "src", "/assets/login-logo.png", 1, "login-logo"], ["fxLayout", "row wrap"], ["fxFlex.gt-sm", "100", "fxFlex.gt-xs", "100", "fxFlex", "100"], ["matInput", "", "placeholder", "Username", 3, "formControl"], ["class", "support-text", 4, "ngIf"], ["matInput", "", "type", "password", "placeholder", "Password", 3, "formControl"], ["mat-raised-button", "", "color", "primary", "type", "submit", 3, "disabled"], [1, "support-text"]], template: function PageLoginComponent_Template(rf, ctx) { if (rf & 1) {
+PageLoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PageLoginComponent, selectors: [["xenon-page-login"]], decls: 19, vars: 6, consts: [[1, "login-register"], [1, "login-register-box"], [1, "mat-elevation-z0"], [3, "formGroup", "ngSubmit"], [1, "text-center"], ["alt", "logo", "src", "./assets/login-logo.png", 1, "login-logo"], ["fxLayout", "row wrap"], ["fxFlex.gt-sm", "100", "fxFlex.gt-xs", "100", "fxFlex", "100"], ["matInput", "", "placeholder", "Username", 3, "formControl"], ["class", "support-text", 4, "ngIf"], ["matInput", "", "type", "password", "placeholder", "Password", 3, "formControl"], ["mat-raised-button", "", "color", "primary", "type", "submit", 3, "disabled"], [1, "support-text"]], template: function PageLoginComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-card", 2);
@@ -3173,7 +3173,7 @@ PageLoginComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
                 <img
                   alt="logo"
                   class="login-logo"
-                  src="/assets/login-logo.png"
+                  src="./assets/login-logo.png"
                 />
               </div>
               <div fxLayout="row wrap">
